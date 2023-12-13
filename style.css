@@ -1,0 +1,336 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
+}
+
+
+
+p {
+  font-size: 24px;
+}
+
+
+button:hover, #loadMoreBtn:hover {
+  background-color: green;
+  color: white;
+  border: none;
+  outline: none;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color:#cd486b;
+}
+
+
+
+.navbar {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+  padding: 30px 0 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.search {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+  border-radius: 8px;
+  padding: 5px 40px;
+  border: 1px solid;
+}
+
+.search img {
+  width: 20px;
+  height: 20px;
+}
+
+.search p {
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+#info {
+  opacity: 0;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.links img {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+#linkNames {
+  display: none;
+}
+
+#userPic {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  height: 8px;
+  width: 50px;
+  margin: 7px;
+  background-color: black;
+}
+
+
+
+.profileData {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 30px 0px;
+  
+  gap: 100px;
+}
+
+.profile {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.profile img {
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+}
+
+.bio {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.biodata {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.name img {
+  width: 30px;
+  height: 30px;
+}
+
+.edit {
+  border-radius: 8px;
+  letter-spacing: 1px;
+  padding: 15px 35px;
+  background-color: white;
+  color: black;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.edit h2 {
+  font-size: 20px;
+}
+
+.post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 80px;
+}
+
+.posts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.followers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.following {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.data span {
+  display: block;
+}
+
+#settings {
+  cursor: pointer;
+}
+
+
+
+.create {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 0 50px;
+  gap: 80px;
+}
+
+.album {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.album img {
+  width: 60px;
+}
+
+.album h1 {
+  font-size: 30px;
+}
+
+
+
+.grid {
+  background-color: #ffffff;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 50px 30px;
+  gap: 50px;
+  background-color:skyblue;
+}
+
+.hero-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap:70px;
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 300px;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+}
+
+#loadMoreBtn{
+  border-radius: 8px;
+  letter-spacing: 1px;
+  padding: 15px 35px;
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+
+
+
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px 0;
+}
+
+.info {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.info img {
+  width: 25px;
+  height: 25px;
+  opacity: 0.7;
+}
+
+.footer p {
+  font-size: 20px;
+}
+
+
+
